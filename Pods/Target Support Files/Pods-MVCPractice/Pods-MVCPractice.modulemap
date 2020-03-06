@@ -1,0 +1,6 @@
+framework module Pods_MVCPractice {
+  umbrella header "Pods-MVCPractice-umbrella.h"
+
+  export *
+  module * { export * }
+}
