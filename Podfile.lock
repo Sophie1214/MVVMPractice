@@ -1,16 +1,20 @@
 PODS:
   - EasyPeasy (1.9.0)
+  - Then (2.6.0)
 
 DEPENDENCIES:
   - EasyPeasy
+  - Then
 
 SPEC REPOS:
   trunk:
     - EasyPeasy
+    - Then
 
 SPEC CHECKSUMS:
   EasyPeasy: 19a84ef8f8bbcf925b9fecc29d1d78b7dab96718
+  Then: 90cd104fd951cec1980a03f57704ad8f784d4d79
 
-PODFILE CHECKSUM: 639e11dc6e3e64a43c58be87b2a03369bf976270
+PODFILE CHECKSUM: bcc6055c22ee6ec83852044a713774be5efd6c54
 
 COCOAPODS: 1.8.3

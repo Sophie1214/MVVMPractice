@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,6 +14,7 @@
 		007B953C2412E9C700C91221 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 007B953A2412E9C700C91221 /* LaunchScreen.storyboard */; };
 		007B95442412EBC300C91221 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B95432412EBC300C91221 /* SearchViewController.swift */; };
 		007B95462412EC8C00C91221 /* SearchTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B95452412EC8C00C91221 /* SearchTableCell.swift */; };
+		007B954A2412F3F100C91221 /* Developer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 007B95492412F3F100C91221 /* Developer.swift */; };
 		A629EA423B65281634EB3EE4 /* Pods_MVCPractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DE68B837A3F463B66C020261 /* Pods_MVCPractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -27,6 +28,7 @@
 		007B953D2412E9C700C91221 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		007B95432412EBC300C91221 /* SearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		007B95452412EC8C00C91221 /* SearchTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableCell.swift; sourceTree = "<group>"; };
+		007B95492412F3F100C91221 /* Developer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Developer.swift; sourceTree = "<group>"; };
 		49E16F7A7A53F83C518D83F1 /* Pods-MVCPractice.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCPractice.release.xcconfig"; path = "Target Support Files/Pods-MVCPractice/Pods-MVCPractice.release.xcconfig"; sourceTree = "<group>"; };
 		4D72B3B9C538842532655273 /* Pods-MVCPractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVCPractice.debug.xcconfig"; path = "Target Support Files/Pods-MVCPractice/Pods-MVCPractice.debug.xcconfig"; sourceTree = "<group>"; };
 		DE68B837A3F463B66C020261 /* Pods_MVCPractice.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVCPractice.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -67,6 +69,7 @@
 			children = (
 				007B952F2412E9C500C91221 /* AppDelegate.swift */,
 				007B95312412E9C500C91221 /* SceneDelegate.swift */,
+				007B95492412F3F100C91221 /* Developer.swift */,
 				007B95482412EC9600C91221 /* UI */,
 				007B95352412E9C500C91221 /* Main.storyboard */,
 				007B95382412E9C700C91221 /* Assets.xcassets */,
@@ -99,7 +102,6 @@
 				4D72B3B9C538842532655273 /* Pods-MVCPractice.debug.xcconfig */,
 				49E16F7A7A53F83C518D83F1 /* Pods-MVCPractice.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				007B95442412EBC300C91221 /* SearchViewController.swift in Sources */,
+				007B954A2412F3F100C91221 /* Developer.swift in Sources */,
 				007B95302412E9C500C91221 /* AppDelegate.swift in Sources */,
 				007B95462412EC8C00C91221 /* SearchTableCell.swift in Sources */,
 				007B95322412E9C500C91221 /* SceneDelegate.swift in Sources */,

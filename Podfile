@@ -7,5 +7,6 @@ target 'MVCPractice' do
 
   # Pods for MVCPractice
     pod 'EasyPeasy'
+    pod 'Then'
 
 end
